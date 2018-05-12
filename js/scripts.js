@@ -8,7 +8,7 @@ function rolldice() {
   var diceTotal= d1 + d2;
   die1.innerHTML=d1;
   die2.innerHTML=d2;
-  showcase.innerHTML=" You rolled " + diceTotal + ".";
+  showcase.innerHTML=" Player 1 rolled" + diceTotal + ".";
     if (d1 == d2 ) {
       showcase.innerHTML+=" Yezzur!!! Play again";
     }
@@ -24,7 +24,7 @@ function rolldices() {
   var diceTotal= d3 + d4;
   die3.innerHTML=d3;
   die4.innerHTML=d4;
-  show.innerHTML=" You rolled " + diceTotal + ".";
+  show.innerHTML=" Player 2 rolled " + diceTotal + ".";
     if (d3 == d4 ) {
       show.innerHTML+=" Yezzur!!! Play again";
     }
@@ -39,7 +39,7 @@ function rolldie() {
   var diceTotal= d5 + d6;
   die5.innerHTML=d5;
   die6.innerHTML=d6
-  status.innerHTML=" You rolled " + diceTotal + ".";
+  status.innerHTML=" Player rolled " + diceTotal + ".";
     if (d5 == d6 ) {
       status.innerHTML+=" Yezzur!!! Play again"
     }
