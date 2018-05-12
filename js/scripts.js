@@ -1,3 +1,4 @@
+// business logic//
 function rolldice() {
   var die1= document.getElementById('die1');
   var die2= document.getElementById('die2');
@@ -12,7 +13,8 @@ function rolldice() {
       showcase.innerHTML+=" Yezzur!!! Play again";
     }
 
-}
+ };
+
 function rolldices() {
   var die3= document.getElementById('die3');
   var die4= document.getElementById('die4');
