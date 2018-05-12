@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>PIG DICE</title>
+  </head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <h1 class =header>PIG DICE</h1>
+  <h2>About Pig Dice</h2>
+  <ul class="rules">
+    <li>This game contains two sections,that is:<strong>PLAYER MODE</strong> and <strong> VS COMPUTER</strong></li>
+    <li>Each player gets a turn to play again if their die values are the same</li>
+    <li>Players do not play twice unless stated above</li>
+    <li>Winners of each round get a chance to play twice if they wish or to start the next round</li>
+  </ul>
+  <body>
+<section id= player>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+     <h1> PLAYER MODE: <h1>
+      <h3>Player 1 </h3>
+      <div id=die1 class="dice">0</div>
+      <div id=die2 class="dice">0</div>
+      <button class="btn" onclick="rolldice()">Roll Dice</button>
+      <h3 id='showcase' style='clear:left';></h3>
+
+      <h3 class="p2">Player 2 </h3>
+      <div id=die3 class="dice">0</div>
+      <div id=die4 class="dice">0</div>
+      <button class="btn" onclick="rolldices()">Roll Dice</button>
+      <h3 id='show' style='clear:left';></h3>
+    </div>
+      <div class="col-md-6 computer">
+        <h1> VS COMPUTER: </h1>
+        <h3>Player: </h3>
+        <div id=die5 class="dice">0</div>
+        <div id=die6 class="dice">0</div>
+        <button class="btn" onclick="rolldie()">Roll Dice</button>
+        <h3 id='status' style='clear:left';></h3>
+          <h3>Computer: </h3>
+          <div id=die7 class="dice">0</div>
+          <div id=die8 class="dice">0</div>
+          <h3 id='cpuvalue' style='clear:left';></h3>
+      </div>
+    </div>
+  </div>
+    </section>
+  </body>
+</html>

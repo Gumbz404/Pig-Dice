@@ -1,0 +1,53 @@
+body{ height: 672px;
+  background-image: url(../gambling-dice_t20_nmk62n.comp.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+}
+.rules{
+  color: white;
+  font-size: 20px;
+}
+.dice{
+    float:left;
+    margin:5px;
+    color:white;
+    background: #cccccc
+    border:#999 1px solid;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+.computer{
+  margin-top: 0;
+  /* margin-bottom: 200px; */
+}
+h3.p2{
+  padding-left: 5px;
+}
+.btn{
+  background-color:
+}
+#showcase{color:
+  #adff2f;
+}
+
+#show{color:
+#adff2f;
+}
+
+#status{
+  color:#adff2f;
+}
+#cpuvalue{
+color:#adff2f;
+}
