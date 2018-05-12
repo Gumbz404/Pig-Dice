@@ -31,7 +31,11 @@ h1{
   margin-top: 0;
   /* margin-bottom: 200px; */
 }
+h3{
+  color: white;
+}
 h3.p2{
+  color: white;
   padding-left: 5px;
 }
 .btn{
