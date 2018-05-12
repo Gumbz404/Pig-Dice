@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pig-Dice
 ####  {12/05/2018}
 #### By **{Samuel Gumbo}**
@@ -24,3 +25,6 @@ The application is fully functional and there are no known bugs..
 ### License
 *MIT license*
 Copyright (c) {2018} **SMGEES LTD**
+=======
+# Pig-Dice
+>>>>>>> f9ff41202b5e0234d994e134e80e640558bfc455
